@@ -46,6 +46,7 @@ h1 {
   margin-right: 10px;
   border-radius: 5px;
   border: none;
+  margin-top: 10px; /* Added margin-top to create gap between progress bar and text prompt */
 }
 
 button {
