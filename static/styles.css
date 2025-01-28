@@ -23,6 +23,22 @@ h1 {
   color: #4CAF50;
 }
 
+#progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Adding margin below to give space between progress bar and input */
+  border-radius: 5px;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: green;
+  border-radius: 5px;
+}
+
 #new-task {
   padding: 10px;
   width: 60%;
@@ -81,21 +97,6 @@ li {
 
 .delete-task:hover {
   background-color: #cc0000;
-}
-
-#progress-container {
-  width: 100%;
-  background-color: #e0e0e0;
-  height: 30px;
-  margin-top: 20px;
-  border-radius: 5px;
-}
-
-#progress-bar {
-  height: 100%;
-  width: 0%;
-  background-color: green;
-  border-radius: 5px;
 }
 
 #victory-message {
