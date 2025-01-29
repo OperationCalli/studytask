@@ -1,17 +1,20 @@
-// Import the functions you need from Firebase SDK
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc, getDocs, updateDoc, doc, deleteDoc } from "firebase/firestore";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Firebase configuration object
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBhegc39eQY7-JNrI_yZ8ZfvMSUmxWmw64",
-  authDomain: "studitask-2d34c.firebaseapp.com",
-  projectId: "studitask-2d34c",
-  storageBucket: "studitask-2d34c.firebasestorage.app",
-  messagingSenderId: "746671529397",
-  appId: "1:746671529397:web:31ecac7c896af093474dfc"
+  apiKey: "AIzaSyA_PxbnrROxqzGs4yNu3opkWhHXeBxPhCw",
+  authDomain: "studytask-a3f7b.firebaseapp.com",
+  projectId: "studytask-a3f7b",
+  storageBucket: "studytask-a3f7b.firebasestorage.app",
+  messagingSenderId: "898055158562",
+  appId: "1:898055158562:web:3550a30f65bbffa96ac37b"
 };
 
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);  // Initialize Firestore
