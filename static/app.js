@@ -93,6 +93,7 @@ $(document).ready(function () {
         const index = $(this).data('index');
         const taskId = tasks[index].id;
         deleteTask(taskId);  // Delete task from Firestore
+        playSound('task-complete'); // Play sound when task is deleted
     });
 
     // Update task list with checkboxes and delete button
